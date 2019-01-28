@@ -1,0 +1,189 @@
+/*---------FONTS----------*/
+@font-face {
+    font-family: 'fen-r';
+    src: url("../fonts/fengardoneue_regular-webfont.ttf");
+    src: url('../fonts/fengardoneue_regular-webfont.eot') format('eot'),
+         url('../fonts/fengardoneue_regular-webfont.woff') format('woff'),
+         url('../fonts/fengardoneue_regular-webfont.svg') format('svg');
+}
+@font-face {
+    font-family: 'fen-b';
+    src: url("../fonts/fengardoneue_black-webfont.ttf");
+    src: url('../fonts/fengardoneue_black-webfont.eot') format('eot'),
+         url('../fonts/fengardoneue_black-webfont.woff') format('woff'),
+         url('../fonts/fengardoneue_black-webfont.svg') format('svg');
+}
+@font-face{
+    font-family: 'ar-b';
+    src: url('../fonts/ArchivoBlack-Regular.ttf');
+}
+
+.fen-r{
+    font-family: 'fen-r', sans-serif;
+}
+.fen-b{
+    font-family: 'fen-b', sans-serif;
+}
+.ar-b{
+    font-family: 'ar-b', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'ar-b', serif;
+}
+html body{
+    font-family: 'fen-r', sans-serif;
+}
+/*-------BASE-----------*/
+li{
+    list-style: none!important;
+}
+a{
+    text-decoration: none!important;
+        color: white!important;
+}
+
+/*---------- LOGO ----------------------*/
+#logoFinal{
+    height: 80px;
+    margin: 5px;
+}
+
+/*-----------------------------------------
+
+--------------FIRST INDEX -----------------
+
+-----------------------------------------*/
+
+/* HEADER */
+header{
+    border-bottom: 5px solid #195E8E;
+}
+.bg-blue{
+    background-color: #5eb1bf!important;
+}
+
+.site{
+    text-transform: uppercase;
+}
+
+.site a:hover{
+    text-decoration: none;
+}
+.big{
+    font-size: 150%;
+}
+
+/*---------BX SLIDER-----------*/
+
+.carousel-item img{
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../IMG/young-man4460x4460.jpg");
+    opacity: 1;
+    height: 500px;
+    width: 100%;
+
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-caption{
+    bottom: 25% !important;
+}
+
+/*----BOUTONS-------*/
+#login{
+    position: absolute;
+    top: 20%; left: auto;
+    margin: auto;width:100%;
+}
+#login a {
+    padding: 0 20px;
+}
+#login a:hover{
+    font-size: 1.05rem;
+}
+
+#login a i{
+    margin-right: 10px;
+}
+.c-w{
+    color: white !important;
+}
+.c-w:hover{
+    font-size: 125%;
+}
+.m-10-15{
+    margin: 10px 15px;
+}
+
+
+  /*------FOOTER-------------*/
+  .footer, .footer2, .footer3{
+    margin: 10px 0;
+}
+.footer2{
+    border-left: 0.4px solid white;
+    border-right: 0.4px solid white;
+}
+#footerSect{
+    border-top: 5px solid #195E8E;
+}
+
+.footer li{
+    list-style: none;
+    padding: 2px 0;
+}
+.footer li span{
+    padding-left: 10px;
+}
+
+.footer2 li{
+    list-style: none;
+    padding: 2px 0;
+}
+.footer2 h5{
+    margin-bottom: 30px;
+}
+.social{
+    display: inline;
+    padding: 0;
+}
+.social li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.social li a{
+    border-radius: 50%;
+    width: 20px;
+    color: white;
+    text-decoration: none;
+}
+.margin-0-auto{
+    margin: 0 auto;
+}
+
+
+/*-----------------------------------------
+
+---------------- SIGN IN  -----------------
+
+-----------------------------------------*/
+
+#thanks{
+    background-color: #EEEAE6;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.nextIndex{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    color: #585E62!important;
+}
+
+.card-body {
+    padding-bottom: 0 !important;
+}

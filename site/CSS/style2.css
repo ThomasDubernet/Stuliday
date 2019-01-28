@@ -1,0 +1,422 @@
+/*---------FONTS----------*/
+@font-face {
+    font-family: 'fen-r';
+    src: url("../fonts/fengardoneue_regular-webfont.ttf");
+    src: url('../fonts/fengardoneue_regular-webfont.eot') format('eot'),
+         url('../fonts/fengardoneue_regular-webfont.woff') format('woff'),
+         url('../fonts/fengardoneue_regular-webfont.svg') format('svg');
+}
+@font-face {
+    font-family: 'fen-b';
+    src: url("../fonts/fengardoneue_black-webfont.ttf");
+    src: url('../fonts/fengardoneue_black-webfont.eot') format('eot'),
+         url('../fonts/fengardoneue_black-webfont.woff') format('woff'),
+         url('../fonts/fengardoneue_black-webfont.svg') format('svg');
+}
+@font-face{
+    font-family: 'ar-b';
+    src: url('../fonts/ArchivoBlack-Regular.ttf');
+}
+
+.fen-r{
+    font-family: 'fen-r', sans-serif;
+}
+.fen-b{
+    font-family: 'fen-b', sans-serif;
+}
+.ar-b{
+    font-family: 'ar-b', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'ar-b', serif;
+}
+html body{
+    font-family: 'fen-r', sans-serif;
+}
+/*------------------------*/
+.ft-bold{
+    font-weight: 500;
+}
+.ftp-9{
+    font-size: 90%;
+}
+.list-none{
+    list-style: none;
+}
+.opa-full{
+    opacity: 1;
+}
+.flr{
+    float: right;
+}
+.h-50{
+    height: 50%;
+}
+.w-50{
+    width: 50%;
+}
+.pp-3{
+    padding: 3%;
+}
+.ppl-3{
+    padding-left: 3%;
+}
+.ppr-3{
+    padding-right: 3%;
+}
+.pplr-3{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.pptb-3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.mplr-3{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.mptb-3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ppt-3{
+    padding-top: 3%;
+}
+.ppb-3{
+    padding-bottom: 3%;
+}
+.pp-10{
+    padding: 10%;
+}
+.p-none{
+    padding: 0 !important;
+}
+.mp-3{
+    margin: 3%;
+}
+.mp-6{
+    margin: 6%;
+}
+.m-10-15{
+    margin: 10px 15px;
+}
+.mpl-3{
+    margin-left: 3%;
+}
+.mpr-3{
+    margin-right: 3%;
+}
+.mpt-3{
+    margin-top: 3%;
+}
+.mpb-3{
+    margin-bottom: 3%;
+}
+.mpb-none{
+    margin-bottom: 0;
+}
+.mp-10{
+    margin: 10%;
+}
+.h-30{
+    height: 30%!important;
+}
+.w-30{
+    width: 30%!important;
+}
+.w-20{
+    width: 20%!important;
+}
+.w-50{
+    width: 50%!important;
+}
+.margin-0-auto{
+    margin: 0 auto;
+}
+.price{
+    font-weight: 400;
+    color: #E4AF56;
+    font-size: 110%;
+}
+.TTC{
+    text-transform: uppercase;
+    font-size: 75%;
+}
+
+.c-w{
+    color: white !important;
+}
+.c-w:hover{
+    font-size: 125%;
+}
+/*---------- LOGO & HEADER ----------------------*/
+#logoFinal{
+    height: 80px;
+    margin: 5px;
+}
+header{
+    border-bottom: 5px solid #195E8E;
+}
+.bg-blue{
+    background-color: #5eb1bf!important;
+}
+/*-----------ANNONCES-------------------*/
+.breadcrumb {
+    background-color: rgba(233, 236, 239, 0.8);
+    
+}
+.first-background{
+    background-image: url(../IMG/beach.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(94, 177, 191, 0.6);
+}
+
+#logo{
+    flex-grow: 2;
+}
+
+nav{
+    margin: auto;
+}
+.nav-link{
+    color: white;
+}
+#annonces{
+    background-color: #EEEAE6;
+
+}
+
+.cardSpec1{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+}
+
+.searchBar{
+    margin: 10% auto;
+}
+
+#footerBackground{
+    background-color: rgba(94, 177, 191, 0.6);
+}
+
+.legalMentions{
+    border-right: 0.5px white solid;
+    border-left: 0.5px white solid;
+}
+
+.bt-2{
+    bottom: 2% !important;
+}
+.card-body{
+    padding-bottom: 20%;
+}
+
+/*------------------------------------
+---------------Profil-----------------
+------------------------------------*/
+.profil-background{
+    color: white !important;
+    background: url(../IMG/city-dark-95.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.flex{
+    display: flex;
+}
+.name{
+    flex-grow: 2;
+    background-color: rgba(44, 44, 44, 0.7);
+}
+.profilImg{
+    max-width: 200px;
+    width: 200px;
+    max-height: 200px;
+    height: 200px;
+    background-image: url();/*-------- URL IMAGE---*/
+    background-size: contain;
+    background-position: center;
+}
+ /*--------------CONTACT---------------------*/
+
+.form-contact{
+    background-color: lightgrey;
+}
+
+.properties-contact{
+    z-index: 9999;
+    right: 0;
+    width: 30%;
+}
+.card-color{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.textarea-color{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.input-color{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*-----------------ANNONCE SEULE ---------------------- */
+
+.list-group1{
+    flex-direction: row !important;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.list-group-item1{
+    margin: 0 0.3%;
+}
+
+.list-group-flush-perso .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 0;
+  }
+
+  .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    transform: translate3d(-50%, 40px, 0px) !important;
+    width: 300%;
+    top: 100%; /* Bottom of button */
+    right: 0; 
+  }
+
+  .pSpecial{
+    margin: 13% 9.4%;
+    border: 3px solid #195E8E;
+    background-color: rgba(80, 196, 210, 0.7);
+    border-radius: 1.5rem;
+  }
+  .pSpecial1 {
+    margin: 0 9.4% 3% 9.4%;
+    border: 3px solid #195E8E;
+    background-color: rgba(80, 196, 210, 0.7);
+    border-radius: 1.5rem;
+}
+  .pSpecial-left{
+    border: 3px solid #195E8E;
+    background-color: rgba(94, 177, 191, 0.5);
+    border-radius: 1.5rem 0 0 1.5rem;
+    border-right: 0.5px solid #195E8E;
+  }
+  .pSpecial-right{
+    border: 3px solid #195E8E;
+    background-color: rgba(94, 177, 191, 0.5);
+    border-radius: 0 1.5rem 1.5rem 0;
+    border-left: 0.5px solid #195E8E;
+  }
+  .btn-main{
+      border: 1px solid darkgray;
+      background-color: #FFF;
+  }
+
+  .list-group-item.active{
+      background-color: #2980b9;
+  }
+
+  .strongPoints{
+      color: #269E82;
+  }
+
+  .bordBotGreen{
+      border-bottom: 2px solid #269E82;
+  }
+
+  .firstBox{
+      border: 1px solid #c2c2c2;
+      border-radius: 4px;
+  }
+  .secondBox{
+      border: 1px solid #c2c2c2;
+      border-radius: 4px;
+  }
+
+  /*--------- NAV RESA ----------------*/
+
+  #logoFinal1 {
+    height: 50px;
+    margin: 10px;
+}
+  .btn-color{
+      background-color: #DA5552;
+      border: 0.5px solid #E4B1AB;
+      border-radius:5%;
+  }
+
+  .resa{
+      bottom: 0 !important;
+      right: 0;
+      left: 0;
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+      background-color: rgba(25, 94, 142, 0.9);
+      border-radius: 1rem 1rem 0 0;
+      color: white;
+  }
+
+  .resa .row h2,
+  .resa .row h4,
+  .resa .row h5{
+      line-height: 50px;
+  }
+
+  .bottomMargin{
+      margin-bottom: 50px;
+  }
+
+
+  /*------FOOTER-------------*/
+.footer, .footer2, .footer3{
+    margin: 10px 0;
+}
+.footer2{
+    border-left: 0.4px solid white;
+    border-right: 0.4px solid white;
+}
+
+
+.footer li{
+    list-style: none;
+    padding: 2px 0;
+}
+.footer li span{
+    padding-left: 10px;
+}
+
+.footer2 li{
+    list-style: none;
+    padding: 2px 0;
+}
+.footer2 h5{
+    margin-bottom: 30px;
+}
+footer{
+    border-top: 5px solid #195E8E;
+}
+.social{
+    display: inline;
+    padding: 0;
+}
+.social li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.social li a{
+    border-radius: 50%;
+    width: 20px;
+    color: white;
+    text-decoration: none;
+}
